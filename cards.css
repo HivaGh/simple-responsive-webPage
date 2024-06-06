@@ -1,0 +1,107 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    background-color: #EDF2F8;
+    width: 100%;
+    height: auto;
+    padding: 56px 16px;
+    display: flex;
+    flex-direction: column;
+}
+
+.card{
+    width: 100%;
+    background-color: pink;
+    padding: 24px;
+    border-radius: 8px;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+}
+
+.avatar{
+    margin-right: 12px;
+}
+
+.avatar_container{
+    width: 35px;
+    height: 35px;
+    border: #b28bed;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 50%;
+}
+
+.avatar_image{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.name {
+    color: #FCE9FF;
+    font-size: 1.2rem;
+}
+
+.id {
+    color: #b28bed;
+    font-size: 1.2rem;
+}
+
+.title{
+    color: #FCE9FF;
+    font-size: 1.8rem;
+    margin-top: 20px;
+}
+
+.description{
+    color: #b28bed;
+    font-size: 1.2rem;
+    margin-top: 20px;
+}
+
+.card_container{
+    padding: 8px;
+}
+
+@media (min-width: 1024px){
+
+.container{
+    padding: 128px;
+    flex-direction: row;
+}
+
+.box_comment_first{
+    width: 75%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.box_comment_second{
+    width: 25%;
+}
+
+.big_card{
+    width: 70%;
+}
+
+.small_card{
+    width: 30%;
+}
+
+.card{
+    height: 100%;
+}
+
+.card_container {
+    padding: 12px;
+}
+}
